@@ -11,9 +11,7 @@ Download and extract [Wave](https://github.com/h2oai/wave/releases/tag/v0.10.0).
 
 **1.** Download and install viennaRNA based on your operating system at middle in the page here: https://www.tbi.univie.ac.at/RNA/#download
 
-**Imporant**: If you use MacOS as operating system, make sure that you see RNA related files in the directory of <code>/usr/local/bin</code> after installing the proper package.
-
-If you use Ubuntu, after downloading and installing the appropriate package, RNA related files most probably will be located at <code>/usr/bin</code>. So, please change the line: <code>echo "vienna_2: /usr/local/bin" > arnie.conf;</code>  with <code>echo "vienna_2: /usr/bin" > arnie.conf;</code> in setup_draw_rna.sh before running it.
+**Imporant**: If you use MacOS as operating system, make sure that you see RNA related files in the directory of <code>/usr/local/bin</code> after installing the proper package. For Ubuntu, they will be located at usr/bin/. This is why there are two different bash files.
 
 **2.** Open terminal in the cloned folder and run: <code>make setup</code>
 
