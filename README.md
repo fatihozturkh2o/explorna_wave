@@ -20,3 +20,5 @@ Download and extract [Wave](https://github.com/h2oai/wave/releases/tag/v0.10.0).
 **4.** Now you are ready to run the app: <code>./venv/bin/python run.py</code>   
 
 **5.** Go to <code>http://localhost:10101/explorna</code> in your browser.
+
+change
